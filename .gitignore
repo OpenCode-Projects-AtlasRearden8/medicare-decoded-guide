@@ -1,5 +1,4 @@
 # Build outputs (regenerable locally)
-site/
 # Python
 *.pyc
 .env
@@ -7,4 +6,6 @@ site/
 .pytest_cache/
 .venv/
 __pycache__/
+dist/*.tmp
 node_modules/
+site/
